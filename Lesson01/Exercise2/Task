@@ -1,0 +1,12 @@
+Lav SamleOutput programmet om, så brugeren selv indtaster de tre tekststykker ved hjælp af input().
+ Programmet skal derefter vise den færdige reklame.
+
+overskrift = input("Skriv en overskrift: ")
+part1 = input("Skriv første sætning: ")
+part2 = input("Skriv anden sætning: ")
+part3 = input("Skriv tredje sætning: ")
+
+Outputtet skal være:
+Python Kursus
+Lær at programmere. Ingen erfaring nødvendig. Tilmeld dig i dag.
+Tak fordi du læste reklamen!
