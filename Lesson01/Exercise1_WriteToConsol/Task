@@ -1,0 +1,20 @@
+Task
+Write a Python program that:
+
+Stores:
+The name of the student sitting next to you (on the right)
+Her/His shoe size
+Stores your own shoe size
+
+Calculates:
+the difference between your shoe sizes
+
+Prints:
+The name
+The shoe size
+The difference
+
+Use:
+variables,
+calculations,
+and print()

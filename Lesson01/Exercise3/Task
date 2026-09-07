@@ -1,0 +1,29 @@
+Samlede kommentarer
+
+Exercise:
+
+Find the correct places for the comments. Copy and paste them into the source code.
+
+
+The main method is the starting point of every Java program
+Create an object of the SpaceMission class
+This allows us to use the methods in this class
+Call a method that prints the title
+Call a method that prints information about the astronaut
+This method prints a title for the program
+It does not return anything, so the return type is void
+Print a line of "=" characters
+Print the title text
+Print another line of "=" characters
+Print an empty line using an escape character (\n)
+This method prints information about the astronaut and the mission
+Declare and initialize variables
+Variables with astronaut information
+These variables store information as text (String)
+Print the astronaut's name
+Print the nationality
+Print the mission
+The quotation marks are printed using escape characters (")
+Print an empty line to make the output easier to read
+Print a message header
+Print a message using quotation marks and text
