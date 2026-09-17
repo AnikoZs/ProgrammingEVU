@@ -1,0 +1,11 @@
+🐑 Program SheepCounter
+
+Description:
+The program counts sheep using a while loop and prints each sheep number.
+
+Modification Questions
+1. Change the program so counting starts at 3 instead of 1.
+2. Make the program stop counting at 50 sheep instead of the current limit.
+3. Modify the loop so only even numbers of sheep are printed.
+4. Add a private variable to store the maximum number of sheep.
+5. Change the loop so it counts downwards instead of upwards.

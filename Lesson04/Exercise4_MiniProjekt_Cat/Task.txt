@@ -1,0 +1,42 @@
+Exercise:
+Working with Lists of Objects in Python
+
+In this exercise, you will practice creating and using a list of objects.
+
+You have a Cat class with the following methods:
+eat()
+chase_mouse()
+sleep()
+
+1: Create Cats
+
+Create three Cat objects:
+Luna
+Simba
+Milo
+
+Store the objects in a Python list called cats.
+
+2: Use a Loop
+
+Use a for loop to go through the list and call the following methods for each cat:
+
+eat()
+chase_mouse()
+sleep()
+
+Print an empty line after each cat's actions.
+
+Check your code. Look at CatTestSolution.py filen
+
+3: Use input
+
+Ask the user how many cats they want to register.
+Ask the names of the cats.
+
+4: Use for and print
+After all cats have been registered, display each cat performing its activities:
+
+Eating
+Chasing a mouse
+Sleeping

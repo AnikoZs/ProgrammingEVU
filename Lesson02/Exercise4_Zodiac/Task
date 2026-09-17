@@ -1,0 +1,16 @@
+Exercise: Rebuild the Code from Comments
+
+You are given a test class where the Python code has been removed, but all comments are still there.
+Your task is to rewrite the missing Python code by carefully reading and understanding the comments.
+
+Open the file ZodiacTest.phy.
+You will see many comments explaining what the program should do.
+All executable code has been deleted.
+Write the correct Python code below each comment.
+
+The program must:
+Ask the user for their birth day
+Ask the user for their birth month
+Create a ZodiacSign object
+Call a method that returns the zodiac sign
+Print the result to the user

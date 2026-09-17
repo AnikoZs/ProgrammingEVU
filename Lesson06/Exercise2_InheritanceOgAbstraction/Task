@@ -1,0 +1,11 @@
+📝 Exercise: Create a New Instrument (Flute)
+
+Create a new subclass called Flute.
+
+Requirements
+Inherit from Instrument.
+Add a new attribute called material.
+Override the __str__() method.
+Add a method called blow().
+Add a Flute object to the instruments list.
+Update the test program so the flute can be played.

@@ -1,0 +1,21 @@
+1. CoinVer1, CoinTestVer1
+Hvad er formålet med Coin-klassen?
+Hvad gør flip()-metoden?
+Hvad gemmer attributten side?
+Hvad returnerer getSide()?
+Hvorfor bruger vi Random i Coin-klassen?
+
+2. CoinVer2, CoinTestVer2
+Hvordan ville resultatet variere fra version 1?
+
+3. CoinVer3, CoinTestVer3
+Hvordan ændrer while-loopen i version 2 spillets logik?
+Hvad er stop-betingelsen for loopen?
+Hvilken forskel er der mellem totalFlips og headsCount?
+Hvordan ville resultatet variere fra version 2?
+
+3. CoinVer4, CoinTestVer4
+Hvorfor bruger vi switch her i stedet for if/else?
+Hvad sker der, hvis man glemmer break i switch?
+Hvordan tæller switch-statements Heads og Tails?
+Hvilken fordel har switch, hvis man senere vil tilføje flere “resultater” (fx “Edge” eller specielle mønter)?

@@ -1,0 +1,123 @@
+Questions
+
+1. What is the purpose of the DotCom class?
+
+A. Read user input
+ B. Store and manage the ship
+ C. Start the game
+ D. Generate random numbers
+
+2. What does the variable location_cells store?
+
+A. The player's guesses
+ B. The game score
+ C. The ship's positions on the grid
+ D. The number of ships
+
+3. What is the purpose of num_of_hits?
+
+A. Count how many times the player guessed
+ B. Count how many times the ship has been hit
+ C. Count the number of ships
+ D. Count misses
+
+4. What does this code do?
+
+guess = int(user_input)
+
+
+A. Converts a number to a string
+ B. Generates a random number
+ C. Converts a string to an integer
+ D. Creates a list
+
+5. What should the method return if the guess is not part of the ship?
+
+A. "hit"
+ B. "kill"
+ C. "wrong"
+ D. "miss"
+
+6. What should happen when the player hits the last remaining cell of the ship?
+
+A. Return "hit"
+ B. Return "miss"
+ C. Return "kill"
+ D. End the program immediately
+
+7. Why do we replace a hit location with -1?
+
+A. To make the ship bigger
+ B. To remember that the location has already been hit
+ C. To reset the game
+ D. To generate a new ship
+
+8. What does this loop do?
+
+while is_alive:
+
+
+A. Runs once
+ B. Runs forever
+ C. Runs while the ship is still alive
+ D. Runs while the player is alive
+
+9. What is the purpose of this code?
+
+num_guesses += 1
+
+
+A. Decreases the score
+ B. Counts the player's guesses
+ C. Creates a new guess
+ D. Resets the counter
+
+10. Which class is responsible for placing the ship on the board?
+
+A. DotCom
+ B. GameLauncher
+ C. Player
+ D. Random
+
+11. If the ship locations are:
+
+[2, 3, 4]
+and the player enters:
+3
+What should be returned?
+
+12. If the player has already hit locations 2 and 3 and now guesses 4, what should be returned?
+
+13. Why is a list used for location_cells?
+
+14. What is the advantage of having separate classes (DotCom and GameLauncher)?
+
+15. What kind of error might occur here?
+guess = int(user_input)
+when the user enters:
+hello
+
+✅ Answer Key (Facit)
+
+1. B. Store and manage the ship
+2. C. The ship's positions on the grid
+3. B. Count how many times the ship has been hit
+4. C. Converts a string to an integer
+5. D. "miss"
+6. C. "kill"
+
+7. B. To remember that the location has already been hit
+
+8. C. Runs while the ship is still alive
+
+9. B. Counts the player's guesses
+
+10. B. GameLauncher
+
+11. "hit"
+
+12. "kill"
+
+13. A ship occupies multiple positions, and a list can store multiple values.
+
+14. Each class has a specific responsibility, making the code easier to understand, maintain, and reuse.

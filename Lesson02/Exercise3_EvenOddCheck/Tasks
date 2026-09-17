@@ -1,0 +1,81 @@
+Exercise 1: Change the text
+Modify the print_result() method.
+Output example:
+8 is EVEN.
+or
+7 is ODD.
+
+Question:
+Which method decides whether the number is even or odd?
+
+Exercise 2: Test the is_even() method
+Instead of calling print_result(), use is_even() directly.
+
+Expected output:
+True
+or
+False
+
+Starter code:
+checker = EvenOddCheck(number)
+print(checker.is_even())
+
+Question:
+What type of value does is_even() return?
+
+Exercise 3: Add a get_number() method
+Create a method that returns the stored number.
+
+Example:
+def get_number(self):
+    return self.number
+Test:
+print(checker.get_number())
+
+Question:
+Why do we use self.number instead of just number?
+
+Exercise 4: Check a new property
+Add a method that checks if the number is positive.
+Example:
+def is_positive(self):
+    return self.number > 0
+
+Output examples:
+True
+False
+
+Question:
+What happens if the user enters 0?
+
+Exercise 5: Process multiple numbers
+Modify run_program() so the user enters three numbers.
+
+Example:
+Enter a number: 4
+4 is an even number.
+Enter a number: 7
+7 is an odd number.
+Enter a number: 10
+10 is an even number.
+
+Hint:
+for i in range(3):
+    number = int(input("Enter a number: "))
+    checker = EvenOddCheck(number)
+    checker.print_result()
+
+Question:
+How many objects of EvenOddCheck are created?
+
+Extra Exercise: Challenge (for stronger students)
+Add a method:
+def is_divisible_by_5(self):
+    return self.number % 5 == 0
+Then print:
+20 is even and divisible by 5.
+Dette giver en naturlig progression:
+Brug metode.
+Forstå returværdi.
+Forstå attributter (self.number).
+Tilføj egen metode.

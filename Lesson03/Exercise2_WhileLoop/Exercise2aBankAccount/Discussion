@@ -1,0 +1,33 @@
+Read the code and discuss the questions with your partner before looking at the answers.
+
+Question 1
+Why do we use a while loop instead of an if statement in the withdraw_loop() method?
+
+while self.balance > 0:
+
+Discuss:
+What would happen if we used if instead?
+How many times should the code ask for a withdrawal amount?
+
+Question 2
+What happens if the user enters an amount that is larger than the balance?
+
+if amount > self.balance:
+    print("Not enough money!")
+
+Discuss:
+Is money removed from the account?
+Does the loop stop?
+What will happen next?
+
+Question 3
+What will happen when the balance becomes 0?
+
+while self.balance > 0:
+
+
+Discuss:
+Is the condition still true?
+Will the loop continue?
+Which line of code is executed next?
+

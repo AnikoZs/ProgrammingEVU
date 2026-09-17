@@ -1,8 +1,10 @@
 
 def message03():
-    text = "I forgot my lunch box! Ver03"
-    number = 23
+    number = 0
+    
+    aniko = "I forgot my lunch box! Ver03"
+    nu = 23
 
-    print(text, number)
+    print(aniko, nu)
 
 message03()

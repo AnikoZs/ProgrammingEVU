@@ -1,0 +1,40 @@
+Question 1
+What does this line do?
+roll = random.randint(1, 6)
+Discuss:
+•	Why do we use random?
+•	Can the computer predict the result?
+•	What numbers can be generated?
+
+Question 2
+Will the program always need the same number of rolls before getting a 6?
+Discuss:
+•	Could it get a 6 on the first roll?
+•	Could it take 10 rolls?
+•	Why?
+
+Question 3
+Why is roll initialized with 0?
+roll = 0
+Discuss:
+•	Why not start with 6?
+•	What happens if we write:
+roll = 6
+before the loop?
+
+Question 4
+What condition keeps the loop running?
+while roll != 6:
+Discuss:
+•	When is the condition true?
+•	When does it become false?
+•	What happens when the condition becomes false?
+
+Question 5
+Suppose we change the code to:
+roll = random.randint(1, 10)
+What would happen?
+Discuss:
+•	Could the program still stop?
+•	Could it roll numbers larger than 6?
+•	Would the message "Finally got a SIX!" still make sense?

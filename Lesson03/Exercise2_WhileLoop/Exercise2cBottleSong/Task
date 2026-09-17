@@ -1,0 +1,17 @@
+🍺 Program 2: BeerSong
+
+Description:
+You are going to write a classic song program called Bottle Song.
+The program counts down bottles of soda using a while loop and prints the song verses.
+It uses OOP principles, with a class, a private variable, a constructor, and a method.
+Expected Output:
+3 bottles of soda on the wall, 3 bottles of soda!
+Take one down, pass it around, 2 bottles of soda on the wall.
+
+2 bottles of soda on the wall, 2 bottles of soda!
+Take one down, pass it around, 1 bottles of soda on the wall.
+
+1 bottles of soda on the wall, 1 bottles of soda!
+Take one down, pass it around, 0 bottles of soda on the wall.
+
+No more bottles of soda on the wall! 🍾

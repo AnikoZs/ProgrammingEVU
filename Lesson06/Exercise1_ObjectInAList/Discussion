@@ -1,0 +1,46 @@
+Part 1: Objects in a List
+Question 1
+Why do we store Flower objects in a list instead of creating separate variables such as f1, f2, f3, and f4?
+Question 2
+What is stored in the list bouquet?
+bouquet = [f1, f2, f3, f4]
+Question 3
+How can we access the second flower in the list?
+Question 4
+What happens in this loop?
+for flower in bouquet:
+print(flower)
+Question 5
+How would you print only the names of all flowers?
+Part 2: Bubble Sort
+Question 6
+What is the goal of a sorting algorithm?
+Question 7
+Why does Bubble Sort use nested loops?
+Question 8
+What happens in this comparison?
+if flowers[j].price > flowers[j + 1].price:
+Question 9
+Why is Bubble Sort called "Bubble Sort"?
+Question 10
+What are the disadvantages of Bubble Sort when sorting many objects?
+Part 3: Pythonic Sorting with Lambda
+Question 11
+What does this code do?
+bouquet.sort(key=lambda flower: flower.price)
+Question 12
+What is a lambda expression?
+Question 13
+What value is returned by this lambda function?
+lambda flower: flower.price
+Question 14
+Why is Python's built-in sort() usually preferred over Bubble Sort?
+Question 15
+What is the difference between these two statements?
+bouquet.sort(key=lambda flower: flower.price)
+`
+and
+sorted_bouquet = sorted(
+bouquet,
+key=lambda flower: flower.price
+)

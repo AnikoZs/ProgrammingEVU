@@ -1,0 +1,17 @@
+Exercise: Add a New Vegetable to the Kitchen Garden
+
+In this exercise, you will create a new class called Broccoli and add Broccoli objects to the KitchenGarden.
+
+Requirements
+
+Your Broccoli class must have:
+
+3 attributes
+A constructor with default values
+A constructor with parameters
+Getters
+Setters
+A __str__() method
+
+After creating the class, create two Broccoli objects inside KitchenGarden and print them.
+Please modify Broccoli.py og KitchenGarden.py classes.

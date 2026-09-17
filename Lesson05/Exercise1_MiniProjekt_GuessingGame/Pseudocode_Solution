@@ -1,0 +1,24 @@
+START
+
+Create Game object
+Create Player object
+
+WHILE game is not won
+
+    Ask player for a guess
+
+    Send guess to Game
+
+    IF guess is too low
+        Print "Too low"
+
+    ELSE IF guess is too high
+        Print "Too high"
+
+    ELSE
+        Print "Correct!"
+        End game
+
+END WHILE
+
+END

@@ -1,0 +1,42 @@
+Understanding Questions
+Question 1
+What is the main purpose of the flip() method?
+A. Count flips
+B. Generate a random result
+C. Print the summary
+D. Stop the loop
+Question 2
+In Version 2, why do we use heads_count and tails_count?
+A. To store coin objects
+B. To count how many times each result appears
+C. To control the random number generator
+D. To print the coin
+Question 3
+What is the major difference between Version 2 and Version 3?
+A. Version 3 uses a constructor
+B. Version 3 uses random numbers
+C. Version 3 uses a while loop instead of a fixed number of flips
+D. Version 3 removes the counters
+Question 4
+What does this condition mean?
+while heads_count < 5:
+`
+A. Continue while there are fewer than 5 Heads
+B. Continue while there are exactly 5 Heads
+C. Continue forever
+D. Stop after 5 flips
+Question 5
+Why was match-case introduced in Version 4?
+A. To generate random numbers
+B. To replace the constructor
+C. To make decisions based on multiple possible values
+D. To remove the loop
+
+Fill out the table
+
+Version	    New Concept
+Version 1	Classes, objects, random numbers, for-loop
+Version 2
+Version 3
+Version 4
+

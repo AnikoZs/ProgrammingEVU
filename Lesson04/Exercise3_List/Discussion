@@ -1,0 +1,43 @@
+Discussion Exercise: Lists and Program Development
+The following questions are about the three versions of the Athlete program.
+Questions about Lists
+1. What is stored in the variable athletes?
+a) A string
+b) A list of Athlete objects
+c) An integer
+d) A method
+2. How many athletes are stored in the following list?
+athletes = [
+Athlete("Alex", "Skiing"),
+Athlete("Maria", "Snowboarding"),
+Athlete("Jonas", "Shooting")
+]
+3. What does athletes[1] refer to?
+4. Why is using a list better than creating separate variables for each athlete?
+Give at least two reasons.
+5. What happens in this loop?
+for athlete in athletes:
+athlete.compete()
+6. How can you add a new athlete called Emma who participates in Skiing?
+Questions about the Three Versions
+7. What is the main difference between Version 1 and Version 2?
+Think about the Athlete class and its attributes.
+8. Which additional attribute was added in Version 2?
+Why was it useful?
+9. How did the warm_up() and celebrate() methods change from Version 1 to Version 2?
+10. What is the main difference between Version 2 and Version 3?
+11. Which version is the most flexible?
+a) Version 1
+b) Version 2
+c) Version 3
+Explain your answer.
+12. What are the advantages of letting the user enter data instead of hardcoding it in the program?
+Challenge Questions
+13. What would happen if the user entered:
+Football
+as the sport?
+Which warm-up and celebration messages would be shown?
+14. How could you modify the program to keep track of an athlete's age?
+What changes would you need to make?
+15. How could you use a list to find all athletes who participate in Skiing?
+Describe the logic in words.

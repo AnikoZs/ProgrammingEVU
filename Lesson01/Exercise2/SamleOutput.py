@@ -5,3 +5,4 @@ part3 = "Now we go to a new line."
 print("Hello, world!")
 print(f"{part1} {part2} {part3}")
 print("🎂 Cake is ready!")
+

@@ -1,0 +1,81 @@
+🎯 Quiz
+Question 1
+What is the superclass in this program?
+Question 2
+Which classes inherit from Instrument?
+Question 3
+What does this line do?
+class Guitar(Instrument):
+Question 4
+Why do we use super().__init__()?
+Question 5
+Which attributes are inherited from Instrument?
+Question 6
+What is the purpose of the play() method?
+Question 7
+What is polymorphism?
+Question 8
+Why can we store both Guitar and Drum objects in the same list?
+instruments = [
+Guitar("Fender", 6),
+Drum("Yamaha", True)
+]
+Question 9
+What does this code do?
+for instrument in instruments:
+Question 10
+What does isinstance() check?
+isinstance(instrument, Guitar)
+Question 11
+Which method belongs only to the Guitar class?
+Question 12
+Which method belongs only to the Drum class?
+Question 13
+What method is automatically called here?
+print(instrument)
+Question 14
+What is method overriding?
+Question 15
+Which method is overridden in both subclasses?
+✅ Facit
+1.
+Instrument
+2.
+Guitar and Drum
+3.
+It makes Guitar a subclass of Instrument.
+4.
+To call the constructor of the superclass and initialize inherited attributes.
+5.
+name and type
+6.
+To simulate playing an instrument.
+7.
+Polymorphism allows different subclasses to be treated as the same superclass type.
+8.
+Because both classes inherit from Instrument.
+9.
+It loops through each object stored in the list.
+10.
+It checks whether an object belongs to a specific class.
+11.
+strum()
+12.
+hit()
+13.
+str()
+14.
+Replacing an inherited method with a new version in the subclass.
+15.
+str()
+💬 Discussion Questions
+1.	Why is inheritance useful?
+2.	What are the advantages of polymorphism?
+3.	Could we add a Piano class without changing much code?
+4.	Why is storing different objects in one list useful?
+5.	When would you use isinstance() in a real program?
+6.	How would the design change if every instrument had a different version of play()?
+7.	What happens if we remove the __str__() methods from the subclasses?
+8.	Is a Guitar an Instrument? Why?
+9.	Is a Drum an Instrument? Why?
+

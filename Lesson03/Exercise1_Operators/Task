@@ -1,0 +1,26 @@
+Festival
+
+Lav en klasse Ticket.
+
+Attributter
+Python
+age
+has_ticket
+is_banned
+
+Regel:
+Personen må komme ind hvis:
+personen er mindst 18 år
+har billet
+og ikke er bortvist.
+
+Eksempel
+Alder: 22
+Billet: True
+Bortvist: False
+
+Resultat:
+God festival!
+
+Hint:
+if age >= 18 and has_ticket and not is_banned:

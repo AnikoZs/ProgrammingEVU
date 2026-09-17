@@ -1,0 +1,92 @@
+Øvelse 1 :
+Programmet kræver i øjeblikket, at en gæst er mindst 140 cm høj for at få lov til at prøve forlystelsen.
+Find linjen, hvor objektet TivoliRide oprettes, og ændr minimumshøjden til 120 cm.
+Test efter ændringen:
+Indtast 125 cm → gæsten skal have lov til at køre.
+Indtast 110 cm → gæsten skal afvises.
+
+Øvelse 2:
+Giv forlystelsen et nyt navn
+Programmet viser beskeden:
+Velkommen til LoopMaster 3000!
+
+Find udskriften i metoden check_height() og ændr navnet på forlystelsen til:
+Vilde Vulkan
+Når programmet kører, skal den nye velkomsttekst vises i stedet for den gamle.
+
+Øvelse 3:
+Tilføj en ekstra besked til godkendte gæster
+Når en gæst er høj nok, vises følgende besked:
+Du er høj nok! Hop ombord
+
+Tilføj en ekstra linje bagefter:
+God tur!
+Den nye besked skal kun vises, når gæsten opfylder højdekravet.
+
+Eksempel:
+Du er høj nok! Hop ombord
+God tur!
+
+Øvelse 4:
+Forlystelsen uddeler et særligt armbånd til børn, der er mellem 120 cm og 150 cm høje.
+
+Tilføj en ekstra besked:
+Du får et grønt armbånd!
+
+Beskeden skal kun vises, hvis højden er mellem 120 cm og 150 cm (inklusive begge værdier).
+
+Eksempel 1
+Højde: 130
+Du er høj nok! Hop ombord
+God tur!
+Du får et grønt armbånd!
+
+Eksempel 2
+Højde: 170
+Du er høj nok! Hop ombord
+God tur!
+
+Test:
+149 cm → afvises.
+150 cm → godkendes.
+
+Øvelse 5:
+Spørg efter brugerens navn
+
+Programmet spørger i øjeblikket kun efter brugerens højde.
+Udvid programmet så det først spørger efter brugerens navn:
+
+Indtast dit navn:
+Derefter skal programmet vise en personlig velkomst:
+Fx: Velkommen Anna!
+
+Til sidst skal programmet fortsætte med at spørge om højden som normalt.
+
+Eksempel:
+Indtast dit navn: Anna
+Velkommen Anna!
+Indtast din højde i cm:
+
+Øvelse 6:
+VIP-regel for meget høje gæster
+Forlystelsen har indført en særlig VIP-regel.
+
+Hvis en gæst er 180 cm eller højere, skal programmet vise en ekstra besked:
+
+Du får en VIP-plads!
+
+Beskeden skal kun vises:
+hvis gæsten er høj nok til at komme med, og
+hvis højden er mindst 180 cm.
+
+Eksempel 1:
+Højde: 185
+Du er høj nok! Hop ombord
+God tur!
+Du får en VIP-plads!
+
+
+Eksempel 2:
+Højde: 165
+Du er høj nok! Hop ombord
+God tur!

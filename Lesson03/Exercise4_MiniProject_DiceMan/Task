@@ -1,0 +1,38 @@
+Mini Project DiceMan
+
+Assignment: The Dice Man’s Daily Destiny
+Every morning, The Dice Man wakes up and doesn’t know what to do. Instead of deciding like a normal person, he casts a dice ●  . The dice chooses his entire day:
+1.	Eat breakfast
+2.	Study something boring
+3.	Go swimming
+4.	Go fishing  • •
+5.	Call his mom
+6.	Go back to bed
+The problem? The Dice Man doesn’t stop after one roll. He keeps rolling until he has done 5 activities for the day. Your mission: program the life of the Dice Man in Java.
+
+
+Advanced Challenge
+Count how many times he “went back to bed.” If it happens 3 times or more, end the day early with:
+"The Dice Man got too lazy and stayed in bed forever..."
+
+
+Tip: How to generate random numbers in Java
+In Java you usually have two easy options:
+1.	Using Random class (recommended in OOP): Random rand = new Random();
+int dice = rand.nextInt(6) + 1; // 1–6
+2.	Using Math.random() (quick & simple):
+int dice = (int)(Math.random() * 6) + 1; // 1–6
+
+ Math.random() always gives a number between 0.0 and 1.0. Multiplying by 6 makes it 0–5.something, and (int) cuts it down to an integer. Adding +1 makes it 1–6.
+
+Tips to code (Read only if you cannot start the assignment )
+1.	Create a class DiceMan
+o	Attributes: name (String), numberOfActivities (int).
+o	A method rollDice() that returns a random number between 1–6.
+o	A method doActivity(int roll) that prints what the Dice Man does.
+2.	Create a DiceManTest class
+o	Create a DiceMan object.
+o	Print out: “The Dice Man rolled: X”
+3.	Add if/else statements to decide what the Dice Man does.
+4.	Use a loop (for or while) so the Dice Man rolls the dice 5 times.
+5.	After each roll, call the method that prints his activity.

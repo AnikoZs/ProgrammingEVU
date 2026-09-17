@@ -1,0 +1,35 @@
+Question 1
+
+What is the purpose of the __init__() method in the Grade class?
+
+A. It prints the grade.
+
+B. It creates a new Grade object and stores the score.
+
+C. It asks the user for input.
+
+D. It checks if the student passed.
+
+Question 2
+
+Why do we use self.score inside the class?
+
+A. To store the score inside the object.
+
+B. To create a loop.
+
+C. To print the result.
+
+D. To call the test() function.
+
+Question 3
+
+What is the purpose of the get_grade() method?
+
+A. It creates a Grade object.
+
+B. It reads keyboard input.
+
+C. It determines and returns the student's grade.
+
+D. It closes the program.
